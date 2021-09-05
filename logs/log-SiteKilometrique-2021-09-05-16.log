@@ -1,0 +1,911 @@
+05/09/2021, 17:50:26: 192.168.1.2 tente :
+05/09/2021, 17:50:27: 	GET - utilisateurs/email:email
+05/09/2021, 17:50:27: 192.168.1.2 tente :
+05/09/2021, 17:50:27: 	POST - utilisateurs/pass		(checker le mdp d'un utilisateur)
+05/09/2021, 17:50:27: 192.168.1.2 tente :
+05/09/2021, 17:50:27: 	POST - utilisateurs/connexion (email utilisateur:pierre.95@live.be) connexion
+05/09/2021, 17:50:27: 192.168.1.2 tente :
+05/09/2021, 17:50:27: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 17:50:27: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 17:50:27: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 17:50:28: 192.168.1.2 tente :
+05/09/2021, 17:50:28: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 17:50:28: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 17:50:28: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 17:50:28: 192.168.1.2 tente :
+05/09/2021, 17:50:28: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 17:50:28: 192.168.1.2 tente :
+05/09/2021, 17:50:28: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 17:50:28: 192.168.1.2 tente :
+05/09/2021, 17:50:28: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 17:50:28: 192.168.1.2 tente :
+05/09/2021, 17:50:28: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 17:50:30: 192.168.1.2 tente :
+05/09/2021, 17:50:30: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 17:50:30: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 17:50:30: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 17:50:30: 192.168.1.2 tente :
+05/09/2021, 17:50:30: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 17:50:30: 192.168.1.2 tente :
+05/09/2021, 17:50:30: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 17:50:36: 192.168.1.2 tente :
+05/09/2021, 17:50:36: 	POST - lignes/ (id_utilisateur: 1)		(ajout d'une nouvelle ligne)
+05/09/2021, 17:50:36: 		id nouvelle ligne => 268
+05/09/2021, 17:50:36: 192.168.1.2 tente :
+05/09/2021, 17:50:36: 	PUT - lignes/ (id_utilisateur: 1)		(maj. du nbKilometresCumules)
+05/09/2021, 17:50:36: 192.168.1.2 tente :
+05/09/2021, 17:50:36: 	PUT - utilisateurs/nbKilometresCumules (id_utilisateur: 1)		(recalculer le nombre de kilometres Cumules d'un utilisateur)
+05/09/2021, 17:50:36: 192.168.1.2 tente :
+05/09/2021, 17:50:36: PUT - statistiques/ (id_utilisateur: 1)		(maj. de la stat. nbKilometresCumules) en fct de l'utilisateur
+05/09/2021, 17:50:36: 192.168.1.2 tente :
+05/09/2021, 17:50:36: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 17:50:36: 192.168.1.2 tente :
+05/09/2021, 17:50:36: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 17:50:36: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 17:50:36: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 17:50:36: 192.168.1.2 tente :
+05/09/2021, 17:50:36: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 17:50:36: 192.168.1.2 tente :
+05/09/2021, 17:50:36: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 17:50:36: 192.168.1.2 tente :
+05/09/2021, 17:50:36: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 17:50:36: 192.168.1.2 tente :
+05/09/2021, 17:50:36: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 17:50:36: 192.168.1.2 tente :
+05/09/2021, 17:50:36: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 17:50:36: 192.168.1.2 tente :
+05/09/2021, 17:50:36: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 17:50:36: 192.168.1.2 tente :
+05/09/2021, 17:50:37: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 17:50:38: 192.168.1.2 tente :
+05/09/2021, 17:50:38: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 17:50:38: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 17:50:38: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 17:50:38: 192.168.1.2 tente :
+05/09/2021, 17:50:38: 	GET - vehicules/nomUnique (id_utilisateur: 1)		(récupère vehicule via nom_unique)
+05/09/2021, 17:50:38: 192.168.1.2 tente :
+05/09/2021, 17:50:38: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 17:50:48: 192.168.1.2 tente :
+05/09/2021, 17:50:48: 	PUT - lignes/ (id_utilisateur: 1)		(modifier une ligne)
+05/09/2021, 17:50:48: 192.168.1.2 tente :
+05/09/2021, 17:50:48: 	PUT - lignes/ (id_utilisateur: 1)		(maj. du nbKilometresCumules)
+05/09/2021, 17:50:49: 192.168.1.2 tente :
+05/09/2021, 17:50:49: 	PUT - utilisateurs/nbKilometresCumules (id_utilisateur: 1)		(recalculer le nombre de kilometres Cumules d'un utilisateur)
+05/09/2021, 17:50:49: 192.168.1.2 tente :
+05/09/2021, 17:50:49: PUT - statistiques/ (id_utilisateur: 1)		(maj. de la stat. nbKilometresCumules) en fct de l'utilisateur
+05/09/2021, 17:50:49: 192.168.1.2 tente :
+05/09/2021, 17:50:49: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 17:50:49: 192.168.1.2 tente :
+05/09/2021, 17:50:49: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 17:50:49: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 17:50:49: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 17:50:49: 192.168.1.2 tente :
+05/09/2021, 17:50:49: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 17:50:49: 192.168.1.2 tente :
+05/09/2021, 17:50:49: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 17:50:49: 192.168.1.2 tente :
+05/09/2021, 17:50:49: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 17:50:49: 192.168.1.2 tente :
+05/09/2021, 17:50:49: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 17:50:49: 192.168.1.2 tente :
+05/09/2021, 17:50:49: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 17:50:49: 192.168.1.2 tente :
+05/09/2021, 17:50:49: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 17:50:49: 192.168.1.2 tente :
+05/09/2021, 17:50:49: 192.168.1.2 tente :
+05/09/2021, 17:50:49: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 17:50:49: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 17:50:49: 192.168.1.2 tente :
+05/09/2021, 17:50:49: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 17:50:49: 192.168.1.2 tente :
+05/09/2021, 17:50:49: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 17:50:51: 192.168.1.2 tente :
+05/09/2021, 17:50:51: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 17:50:51: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 17:50:51: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 17:50:51: 192.168.1.2 tente :
+05/09/2021, 17:50:51: 	GET - vehicules/nomUnique (id_utilisateur: 1)		(récupère vehicule via nom_unique)
+05/09/2021, 17:50:51: 192.168.1.2 tente :
+05/09/2021, 17:50:51: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 17:51:34: 192.168.1.2 tente :
+05/09/2021, 17:51:34: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 17:51:34: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 17:51:34: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 17:51:34: 192.168.1.2 tente :
+05/09/2021, 17:51:34: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 17:51:34: 192.168.1.2 tente :
+05/09/2021, 17:51:34: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 17:51:34: 192.168.1.2 tente :
+05/09/2021, 17:51:34: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 17:51:34: 192.168.1.2 tente :
+05/09/2021, 17:51:34: 192.168.1.2 tente :
+05/09/2021, 17:51:34: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 17:51:34: 192.168.1.2 tente :
+05/09/2021, 17:51:34: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 17:51:34: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 17:51:34: 192.168.1.2 tente :
+05/09/2021, 17:51:34: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 17:51:34: 192.168.1.2 tente :
+05/09/2021, 17:51:34: 192.168.1.2 tente :
+05/09/2021, 17:51:34: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 17:51:34: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 17:51:34: 192.168.1.2 tente :
+05/09/2021, 17:51:34: 192.168.1.2 tente :
+05/09/2021, 17:51:34: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 17:51:34: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 17:51:34: 192.168.1.2 tente :
+05/09/2021, 17:51:34: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 17:51:34: 192.168.1.2 tente :
+05/09/2021, 17:51:34: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 17:51:36: 192.168.1.2 tente :
+05/09/2021, 17:51:36: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 17:51:36: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 17:51:36: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 17:51:36: 192.168.1.2 tente :
+05/09/2021, 17:51:36: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 17:51:43: 192.168.1.2 tente :
+05/09/2021, 17:51:43: 	POST - lignes/ (id_utilisateur: 1)		(ajout d'une nouvelle ligne)
+05/09/2021, 17:51:43: 		id nouvelle ligne => 269
+05/09/2021, 17:51:43: 192.168.1.2 tente :
+05/09/2021, 17:51:43: 	PUT - lignes/ (id_utilisateur: 1)		(maj. du nbKilometresCumules)
+05/09/2021, 17:51:43: 192.168.1.2 tente :
+05/09/2021, 17:51:43: 	PUT - utilisateurs/nbKilometresCumules (id_utilisateur: 1)		(recalculer le nombre de kilometres Cumules d'un utilisateur)
+05/09/2021, 17:51:43: 192.168.1.2 tente :
+05/09/2021, 17:51:43: PUT - statistiques/ (id_utilisateur: 1)		(maj. de la stat. nbKilometresCumules) en fct de l'utilisateur
+05/09/2021, 17:51:43: 192.168.1.2 tente :
+05/09/2021, 17:51:43: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 17:51:43: 192.168.1.2 tente :
+05/09/2021, 17:51:43: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 17:51:43: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 17:51:43: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 17:51:43: 192.168.1.2 tente :
+05/09/2021, 17:51:43: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 17:51:43: 192.168.1.2 tente :
+05/09/2021, 17:51:43: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 17:51:43: 192.168.1.2 tente :
+05/09/2021, 17:51:43: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 17:51:43: 192.168.1.2 tente :
+05/09/2021, 17:51:43: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 17:51:43: 192.168.1.2 tente :
+05/09/2021, 17:51:43: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 17:51:43: 192.168.1.2 tente :
+05/09/2021, 17:51:43: 192.168.1.2 tente :
+05/09/2021, 17:51:43: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 17:51:43: 192.168.1.2 tente :
+05/09/2021, 17:51:43: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 17:51:43: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 17:51:43: 192.168.1.2 tente :
+05/09/2021, 17:51:43: 192.168.1.2 tente :
+05/09/2021, 17:51:43: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 17:51:43: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 17:51:43: 192.168.1.2 tente :
+05/09/2021, 17:51:43: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 17:51:43: 192.168.1.2 tente :
+05/09/2021, 17:51:43: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 17:51:43: 192.168.1.2 tente :
+05/09/2021, 17:51:43: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 17:51:43: 192.168.1.2 tente :
+05/09/2021, 17:51:43: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 17:51:43: 192.168.1.2 tente :
+05/09/2021, 17:51:43: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 17:51:43: 192.168.1.2 tente :
+05/09/2021, 17:51:43: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 17:52:07: 192.168.1.2 tente :
+05/09/2021, 17:52:07: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 17:52:07: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 17:52:07: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 17:52:07: 192.168.1.2 tente :
+05/09/2021, 17:52:07: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 17:52:07: 192.168.1.2 tente :
+05/09/2021, 17:52:07: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 17:52:07: 192.168.1.2 tente :
+05/09/2021, 17:52:07: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 17:52:07: 192.168.1.2 tente :
+05/09/2021, 17:52:07: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 17:52:11: 192.168.1.2 tente :
+05/09/2021, 17:52:11: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 17:52:11: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 17:52:11: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 17:52:11: 192.168.1.2 tente :
+05/09/2021, 17:52:11: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 17:52:11: 192.168.1.2 tente :
+05/09/2021, 17:52:11: 	GET - vehicules/nomUnique (id_utilisateur: 1)		(récupère vehicule via nom_unique)
+05/09/2021, 17:52:11: 192.168.1.2 tente :
+05/09/2021, 17:52:11: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 17:52:37: 192.168.1.2 tente :
+05/09/2021, 17:52:37: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 17:52:37: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 17:52:37: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 17:52:37: 192.168.1.2 tente :
+05/09/2021, 17:52:37: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 17:52:37: 192.168.1.2 tente :
+05/09/2021, 17:52:37: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 17:52:37: 192.168.1.2 tente :
+05/09/2021, 17:52:37: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 17:52:37: 192.168.1.2 tente :
+05/09/2021, 17:52:37: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 17:52:37: 192.168.1.2 tente :
+05/09/2021, 17:52:37: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 17:52:37: 192.168.1.2 tente :
+05/09/2021, 17:52:37: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 17:52:37: 192.168.1.2 tente :
+05/09/2021, 17:52:37: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 17:52:38: 192.168.1.2 tente :
+05/09/2021, 17:52:38: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 17:52:38: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 17:52:38: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 17:52:38: 192.168.1.2 tente :
+05/09/2021, 17:52:38: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:00:44: 192.168.1.2 tente :
+05/09/2021, 18:00:44: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:00:44: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:00:44: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:00:44: 192.168.1.2 tente :
+05/09/2021, 18:00:44: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:00:44: 192.168.1.2 tente :
+05/09/2021, 18:00:44: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:00:53: 192.168.1.2 tente :
+05/09/2021, 18:00:53: 	POST - utilisateurs/connexion (email utilisateur:pierre.95@live.be) déconnexion
+05/09/2021, 18:00:57: 192.168.1.2 tente :
+05/09/2021, 18:00:57: 	GET - utilisateurs/email:email
+05/09/2021, 18:00:57: 192.168.1.2 tente :
+05/09/2021, 18:00:57: 	POST - utilisateurs/pass		(checker le mdp d'un utilisateur)
+05/09/2021, 18:00:57: 192.168.1.2 tente :
+05/09/2021, 18:00:57: 	POST - utilisateurs/connexion (email utilisateur:pierre.95@live.be) connexion
+05/09/2021, 18:00:57: 192.168.1.2 tente :
+05/09/2021, 18:00:57: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:00:57: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:00:57: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:00:58: 192.168.1.2 tente :
+05/09/2021, 18:00:58: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:00:58: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:00:58: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:00:58: 192.168.1.2 tente :
+05/09/2021, 18:00:58: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 18:00:58: 192.168.1.2 tente :
+05/09/2021, 18:00:58: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:00:58: 192.168.1.2 tente :
+05/09/2021, 18:00:58: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:00:58: 192.168.1.2 tente :
+05/09/2021, 18:00:58: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:01:03: 192.168.1.2 tente :
+05/09/2021, 18:01:03: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:01:03: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:01:03: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:01:03: 192.168.1.2 tente :
+05/09/2021, 18:01:03: 	GET - vehicules/nomUnique (id_utilisateur: 1)		(récupère vehicule via nom_unique)
+05/09/2021, 18:01:03: 192.168.1.2 tente :
+05/09/2021, 18:01:03: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:02:07: 192.168.1.2 tente :
+05/09/2021, 18:02:07: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:02:07: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:02:07: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:02:07: 192.168.1.2 tente :
+05/09/2021, 18:02:07: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 18:02:07: 192.168.1.2 tente :
+05/09/2021, 18:02:07: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:02:07: 192.168.1.2 tente :
+05/09/2021, 18:02:07: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:02:07: 192.168.1.2 tente :
+05/09/2021, 18:02:07: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:02:07: 192.168.1.2 tente :
+05/09/2021, 18:02:07: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:02:07: 192.168.1.2 tente :
+05/09/2021, 18:02:07: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:02:07: 192.168.1.2 tente :
+05/09/2021, 18:02:07: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:02:11: 192.168.1.2 tente :
+05/09/2021, 18:02:11: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:02:11: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:02:11: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:02:11: 192.168.1.2 tente :
+05/09/2021, 18:02:11: 	GET - vehicules/nomUnique (id_utilisateur: 1)		(récupère vehicule via nom_unique)
+05/09/2021, 18:02:11: 192.168.1.2 tente :
+05/09/2021, 18:02:11: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:15:31: 192.168.1.2 tente :
+05/09/2021, 18:15:31: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:15:31: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:15:31: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:15:31: 192.168.1.2 tente :
+05/09/2021, 18:15:31: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:15:31: 192.168.1.2 tente :
+05/09/2021, 18:15:31: 	GET - vehicules/nomUnique (id_utilisateur: 1)		(récupère vehicule via nom_unique)
+05/09/2021, 18:15:31: 192.168.1.2 tente :
+05/09/2021, 18:15:31: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:27:01: 192.168.1.2 tente :
+05/09/2021, 18:27:01: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:27:01: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:27:01: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:27:01: 192.168.1.2 tente :
+05/09/2021, 18:27:01: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:27:01: 192.168.1.2 tente :
+05/09/2021, 18:27:01: 	GET - vehicules/nomUnique (id_utilisateur: 1)		(récupère vehicule via nom_unique)
+05/09/2021, 18:27:01: 192.168.1.2 tente :
+05/09/2021, 18:27:01: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:27:04: 192.168.1.2 tente :
+05/09/2021, 18:27:04: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:27:04: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:27:04: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:27:05: 192.168.1.2 tente :
+05/09/2021, 18:27:05: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:27:05: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:27:05: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:27:05: 192.168.1.2 tente :
+05/09/2021, 18:27:05: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 18:27:05: 192.168.1.2 tente :
+05/09/2021, 18:27:05: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:27:05: 192.168.1.2 tente :
+05/09/2021, 18:27:05: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:27:05: 192.168.1.2 tente :
+05/09/2021, 18:27:05: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:27:06: 192.168.1.2 tente :
+05/09/2021, 18:27:06: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:27:06: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:27:06: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:27:07: 192.168.1.2 tente :
+05/09/2021, 18:27:07: 	GET - vehicules/nomUnique (id_utilisateur: 1)		(récupère vehicule via nom_unique)
+05/09/2021, 18:27:07: 192.168.1.2 tente :
+05/09/2021, 18:27:07: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:27:51: 192.168.1.2 tente :
+05/09/2021, 18:27:51: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:27:51: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:27:51: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:27:51: 192.168.1.2 tente :
+05/09/2021, 18:27:51: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:27:51: 192.168.1.2 tente :
+05/09/2021, 18:27:51: 	GET - vehicules/nomUnique (id_utilisateur: 1)		(récupère vehicule via nom_unique)
+05/09/2021, 18:27:51: 192.168.1.2 tente :
+05/09/2021, 18:27:51: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:28:05: 192.168.1.2 tente :
+05/09/2021, 18:28:05: 	PUT - lignes/ (id_utilisateur: 1)		(modifier une ligne)
+05/09/2021, 18:28:05: 192.168.1.2 tente :
+05/09/2021, 18:28:05: 	PUT - lignes/ (id_utilisateur: 1)		(maj. du nbKilometresCumules)
+05/09/2021, 18:28:05: 192.168.1.2 tente :
+05/09/2021, 18:28:05: 	PUT - utilisateurs/nbKilometresCumules (id_utilisateur: 1)		(recalculer le nombre de kilometres Cumules d'un utilisateur)
+05/09/2021, 18:28:05: 192.168.1.2 tente :
+05/09/2021, 18:28:05: PUT - statistiques/ (id_utilisateur: 1)		(maj. de la stat. nbKilometresCumules) en fct de l'utilisateur
+05/09/2021, 18:28:05: 192.168.1.2 tente :
+05/09/2021, 18:28:05: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:28:05: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:28:05: 192.168.1.2 tente :
+05/09/2021, 18:28:05: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:28:05: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:28:05: 192.168.1.2 tente :
+05/09/2021, 18:28:05: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 18:28:05: 192.168.1.2 tente :
+05/09/2021, 18:28:05: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:28:05: 192.168.1.2 tente :
+05/09/2021, 18:28:05: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:28:05: 192.168.1.2 tente :
+05/09/2021, 18:28:05: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:28:06: 192.168.1.2 tente :
+05/09/2021, 18:28:06: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:28:06: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:28:06: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:28:06: 192.168.1.2 tente :
+05/09/2021, 18:28:06: 	GET - vehicules/nomUnique (id_utilisateur: 1)		(récupère vehicule via nom_unique)
+05/09/2021, 18:28:06: 192.168.1.2 tente :
+05/09/2021, 18:28:06: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:33:37: 192.168.1.2 tente :
+05/09/2021, 18:33:37: 	PUT - lignes/ (id_utilisateur: 1)		(modifier une ligne)
+05/09/2021, 18:33:37: 192.168.1.2 tente :
+05/09/2021, 18:33:37: 	PUT - lignes/ (id_utilisateur: 1)		(maj. du nbKilometresCumules)
+05/09/2021, 18:33:37: 192.168.1.2 tente :
+05/09/2021, 18:33:37: 	PUT - utilisateurs/nbKilometresCumules (id_utilisateur: 1)		(recalculer le nombre de kilometres Cumules d'un utilisateur)
+05/09/2021, 18:33:37: 192.168.1.2 tente :
+05/09/2021, 18:33:37: PUT - statistiques/ (id_utilisateur: 1)		(maj. de la stat. nbKilometresCumules) en fct de l'utilisateur
+05/09/2021, 18:33:37: 192.168.1.2 tente :
+05/09/2021, 18:33:37: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:33:37: 192.168.1.2 tente :
+05/09/2021, 18:33:37: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:33:37: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:33:37: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:33:37: 192.168.1.2 tente :
+05/09/2021, 18:33:37: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 18:33:37: 192.168.1.2 tente :
+05/09/2021, 18:33:37: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:33:37: 192.168.1.2 tente :
+05/09/2021, 18:33:37: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:33:37: 192.168.1.2 tente :
+05/09/2021, 18:33:37: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:33:37: 192.168.1.2 tente :
+05/09/2021, 18:33:37: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:33:37: 192.168.1.2 tente :
+05/09/2021, 18:33:37: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:33:37: 192.168.1.2 tente :
+05/09/2021, 18:33:37: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:33:38: 192.168.1.2 tente :
+05/09/2021, 18:33:38: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:33:38: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:33:38: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:33:38: 192.168.1.2 tente :
+05/09/2021, 18:33:38: 	GET - vehicules/nomUnique (id_utilisateur: 1)		(récupère vehicule via nom_unique)
+05/09/2021, 18:33:38: 192.168.1.2 tente :
+05/09/2021, 18:33:38: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:33:45: 192.168.1.2 tente :
+05/09/2021, 18:33:45: 	PUT - lignes/ (id_utilisateur: 1)		(modifier une ligne)
+05/09/2021, 18:33:45: 192.168.1.2 tente :
+05/09/2021, 18:33:45: 	PUT - lignes/ (id_utilisateur: 1)		(maj. du nbKilometresCumules)
+05/09/2021, 18:33:45: 192.168.1.2 tente :
+05/09/2021, 18:33:45: 	PUT - utilisateurs/nbKilometresCumules (id_utilisateur: 1)		(recalculer le nombre de kilometres Cumules d'un utilisateur)
+05/09/2021, 18:33:45: 192.168.1.2 tente :
+05/09/2021, 18:33:45: PUT - statistiques/ (id_utilisateur: 1)		(maj. de la stat. nbKilometresCumules) en fct de l'utilisateur
+05/09/2021, 18:33:45: 192.168.1.2 tente :
+05/09/2021, 18:33:45: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:33:45: 192.168.1.2 tente :
+05/09/2021, 18:33:45: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:33:45: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:33:45: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:33:45: 192.168.1.2 tente :
+05/09/2021, 18:33:45: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 18:33:45: 192.168.1.2 tente :
+05/09/2021, 18:33:45: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:33:45: 192.168.1.2 tente :
+05/09/2021, 18:33:45: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:33:45: 192.168.1.2 tente :
+05/09/2021, 18:33:45: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:33:45: 192.168.1.2 tente :
+05/09/2021, 18:33:45: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:33:45: 192.168.1.2 tente :
+05/09/2021, 18:33:45: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:33:45: 192.168.1.2 tente :
+05/09/2021, 18:33:45: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:33:46: 192.168.1.2 tente :
+05/09/2021, 18:33:46: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:33:46: 192.168.1.2 tente :
+05/09/2021, 18:33:46: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:33:46: 192.168.1.2 tente :
+05/09/2021, 18:33:46: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:33:52: 192.168.1.2 tente :
+05/09/2021, 18:33:52: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:33:52: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:33:52: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:33:52: 192.168.1.2 tente :
+05/09/2021, 18:33:52: 	GET - vehicules/nomUnique (id_utilisateur: 1)		(récupère vehicule via nom_unique)
+05/09/2021, 18:33:52: 192.168.1.2 tente :
+05/09/2021, 18:33:52: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:33:57: 192.168.1.2 tente :
+05/09/2021, 18:33:57: 	PUT - lignes/ (id_utilisateur: 1)		(modifier une ligne)
+05/09/2021, 18:33:57: 192.168.1.2 tente :
+05/09/2021, 18:33:57: 	PUT - lignes/ (id_utilisateur: 1)		(maj. du nbKilometresCumules)
+05/09/2021, 18:33:57: 192.168.1.2 tente :
+05/09/2021, 18:33:57: 	PUT - utilisateurs/nbKilometresCumules (id_utilisateur: 1)		(recalculer le nombre de kilometres Cumules d'un utilisateur)
+05/09/2021, 18:33:57: 192.168.1.2 tente :
+05/09/2021, 18:33:57: PUT - statistiques/ (id_utilisateur: 1)		(maj. de la stat. nbKilometresCumules) en fct de l'utilisateur
+05/09/2021, 18:33:57: 192.168.1.2 tente :
+05/09/2021, 18:33:57: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:33:57: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:33:57: 192.168.1.2 tente :
+05/09/2021, 18:33:57: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:33:57: 192.168.1.2 tente :
+05/09/2021, 18:33:57: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 18:33:57: 192.168.1.2 tente :
+05/09/2021, 18:33:57: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:33:57: 192.168.1.2 tente :
+05/09/2021, 18:33:57: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:33:57: 192.168.1.2 tente :
+05/09/2021, 18:33:57: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:33:57: 192.168.1.2 tente :
+05/09/2021, 18:33:57: 192.168.1.2 tente :
+05/09/2021, 18:33:57: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:33:57: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:33:57: 192.168.1.2 tente :
+05/09/2021, 18:33:57: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:33:57: 192.168.1.2 tente :
+05/09/2021, 18:33:57: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:33:57: 192.168.1.2 tente :
+05/09/2021, 18:33:57: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:33:57: 192.168.1.2 tente :
+05/09/2021, 18:33:57: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:33:57: 192.168.1.2 tente :
+05/09/2021, 18:33:57: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:33:57: 192.168.1.2 tente :
+05/09/2021, 18:33:57: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:33:57: 192.168.1.2 tente :
+05/09/2021, 18:33:57: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:34:09: 192.168.1.2 tente :
+05/09/2021, 18:34:09: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:34:09: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:34:09: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:34:09: 192.168.1.2 tente :
+05/09/2021, 18:34:09: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 18:34:09: 192.168.1.2 tente :
+05/09/2021, 18:34:09: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:34:09: 192.168.1.2 tente :
+05/09/2021, 18:34:09: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:34:09: 192.168.1.2 tente :
+05/09/2021, 18:34:09: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:34:10: 192.168.1.2 tente :
+05/09/2021, 18:34:10: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:34:10: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:34:10: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:34:10: 192.168.1.2 tente :
+05/09/2021, 18:34:10: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:34:10: 192.168.1.2 tente :
+05/09/2021, 18:34:10: 	GET - vehicules/nomUnique (id_utilisateur: 1)		(récupère vehicule via nom_unique)
+05/09/2021, 18:34:10: 192.168.1.2 tente :
+05/09/2021, 18:34:10: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:34:16: 192.168.1.2 tente :
+05/09/2021, 18:34:16: 	PUT - lignes/ (id_utilisateur: 1)		(modifier une ligne)
+05/09/2021, 18:34:16: 192.168.1.2 tente :
+05/09/2021, 18:34:16: 	PUT - lignes/ (id_utilisateur: 1)		(maj. du nbKilometresCumules)
+05/09/2021, 18:34:17: 192.168.1.2 tente :
+05/09/2021, 18:34:17: 	PUT - utilisateurs/nbKilometresCumules (id_utilisateur: 1)		(recalculer le nombre de kilometres Cumules d'un utilisateur)
+05/09/2021, 18:34:17: 192.168.1.2 tente :
+05/09/2021, 18:34:17: PUT - statistiques/ (id_utilisateur: 1)		(maj. de la stat. nbKilometresCumules) en fct de l'utilisateur
+05/09/2021, 18:34:17: 192.168.1.2 tente :
+05/09/2021, 18:34:17: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:34:17: 192.168.1.2 tente :
+05/09/2021, 18:34:17: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:34:17: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:34:17: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:34:17: 192.168.1.2 tente :
+05/09/2021, 18:34:17: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 18:34:17: 192.168.1.2 tente :
+05/09/2021, 18:34:17: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:34:17: 192.168.1.2 tente :
+05/09/2021, 18:34:17: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:34:17: 192.168.1.2 tente :
+05/09/2021, 18:34:17: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:34:17: 192.168.1.2 tente :
+05/09/2021, 18:34:17: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:34:17: 192.168.1.2 tente :
+05/09/2021, 18:34:17: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:34:17: 192.168.1.2 tente :
+05/09/2021, 18:34:17: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:34:21: 192.168.1.2 tente :
+05/09/2021, 18:34:21: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:34:21: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:34:21: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:34:21: 192.168.1.2 tente :
+05/09/2021, 18:34:21: 	GET - vehicules/nomUnique (id_utilisateur: 1)		(récupère vehicule via nom_unique)
+05/09/2021, 18:34:21: 192.168.1.2 tente :
+05/09/2021, 18:34:21: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:34:30: 192.168.1.2 tente :
+05/09/2021, 18:34:30: 	PUT - lignes/ (id_utilisateur: 1)		(modifier une ligne)
+05/09/2021, 18:34:30: 192.168.1.2 tente :
+05/09/2021, 18:34:30: 	PUT - lignes/ (id_utilisateur: 1)		(maj. du nbKilometresCumules)
+05/09/2021, 18:34:30: 192.168.1.2 tente :
+05/09/2021, 18:34:30: 	PUT - utilisateurs/nbKilometresCumules (id_utilisateur: 1)		(recalculer le nombre de kilometres Cumules d'un utilisateur)
+05/09/2021, 18:34:30: 192.168.1.2 tente :
+05/09/2021, 18:34:30: PUT - statistiques/ (id_utilisateur: 1)		(maj. de la stat. nbKilometresCumules) en fct de l'utilisateur
+05/09/2021, 18:34:30: 192.168.1.2 tente :
+05/09/2021, 18:34:30: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:34:30: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:34:30: 192.168.1.2 tente :
+05/09/2021, 18:34:30: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:34:30: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:34:30: 192.168.1.2 tente :
+05/09/2021, 18:34:30: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 18:34:30: 192.168.1.2 tente :
+05/09/2021, 18:34:30: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:34:30: 192.168.1.2 tente :
+05/09/2021, 18:34:30: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:34:30: 192.168.1.2 tente :
+05/09/2021, 18:34:30: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:34:30: 192.168.1.2 tente :
+05/09/2021, 18:34:30: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:34:30: 192.168.1.2 tente :
+05/09/2021, 18:34:30: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:34:30: 192.168.1.2 tente :
+05/09/2021, 18:34:30: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:34:30: 192.168.1.2 tente :
+05/09/2021, 18:34:30: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:34:30: 192.168.1.2 tente :
+05/09/2021, 18:34:30: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:34:30: 192.168.1.2 tente :
+05/09/2021, 18:34:30: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:34:36: 192.168.1.2 tente :
+05/09/2021, 18:34:36: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:34:36: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:34:36: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:34:36: 192.168.1.2 tente :
+05/09/2021, 18:34:36: 	GET - vehicules/nomUnique (id_utilisateur: 1)		(récupère vehicule via nom_unique)
+05/09/2021, 18:34:36: 192.168.1.2 tente :
+05/09/2021, 18:34:36: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:34:39: 192.168.1.2 tente :
+05/09/2021, 18:34:39: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:34:39: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:34:39: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:34:39: 192.168.1.2 tente :
+05/09/2021, 18:34:39: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 18:34:39: 192.168.1.2 tente :
+05/09/2021, 18:34:39: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:34:39: 192.168.1.2 tente :
+05/09/2021, 18:34:39: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:34:39: 192.168.1.2 tente :
+05/09/2021, 18:34:39: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:34:39: 192.168.1.2 tente :
+05/09/2021, 18:34:39: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:34:39: 192.168.1.2 tente :
+05/09/2021, 18:34:39: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:34:39: 192.168.1.2 tente :
+05/09/2021, 18:34:39: 192.168.1.2 tente :
+05/09/2021, 18:34:39: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:34:39: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:34:39: 192.168.1.2 tente :
+05/09/2021, 18:34:39: 192.168.1.2 tente :
+05/09/2021, 18:34:39: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:34:39: 192.168.1.2 tente :
+05/09/2021, 18:34:39: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:34:39: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:34:39: 192.168.1.2 tente :
+05/09/2021, 18:34:39: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:34:39: 192.168.1.2 tente :
+05/09/2021, 18:34:39: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:34:42: 192.168.1.2 tente :
+05/09/2021, 18:34:42: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:34:42: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:34:42: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:34:42: 192.168.1.2 tente :
+05/09/2021, 18:34:42: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:34:51: 192.168.1.2 tente :
+05/09/2021, 18:34:51: 	POST - lignes/ (id_utilisateur: 1)		(ajout d'une nouvelle ligne)
+05/09/2021, 18:34:51: 		id nouvelle ligne => 270
+05/09/2021, 18:34:51: 192.168.1.2 tente :
+05/09/2021, 18:34:51: 	PUT - lignes/ (id_utilisateur: 1)		(maj. du nbKilometresCumules)
+05/09/2021, 18:34:51: 192.168.1.2 tente :
+05/09/2021, 18:34:51: 	PUT - utilisateurs/nbKilometresCumules (id_utilisateur: 1)		(recalculer le nombre de kilometres Cumules d'un utilisateur)
+05/09/2021, 18:34:51: 192.168.1.2 tente :
+05/09/2021, 18:34:51: PUT - statistiques/ (id_utilisateur: 1)		(maj. de la stat. nbKilometresCumules) en fct de l'utilisateur
+05/09/2021, 18:34:51: 192.168.1.2 tente :
+05/09/2021, 18:34:51: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:34:51: 192.168.1.2 tente :
+05/09/2021, 18:34:51: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:34:51: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:34:51: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:34:51: 192.168.1.2 tente :
+05/09/2021, 18:34:51: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 18:34:51: 192.168.1.2 tente :
+05/09/2021, 18:34:51: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:34:51: 192.168.1.2 tente :
+05/09/2021, 18:34:51: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:34:51: 192.168.1.2 tente :
+05/09/2021, 18:34:51: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:34:51: 192.168.1.2 tente :
+05/09/2021, 18:34:51: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:34:51: 192.168.1.2 tente :
+05/09/2021, 18:34:51: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:34:51: 192.168.1.2 tente :
+05/09/2021, 18:34:51: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:34:51: 192.168.1.2 tente :
+05/09/2021, 18:34:51: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:34:51: 192.168.1.2 tente :
+05/09/2021, 18:34:51: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:34:51: 192.168.1.2 tente :
+05/09/2021, 18:34:51: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:34:51: 192.168.1.2 tente :
+05/09/2021, 18:34:51: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:34:51: 192.168.1.2 tente :
+05/09/2021, 18:34:51: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:34:51: 192.168.1.2 tente :
+05/09/2021, 18:34:51: 192.168.1.2 tente :
+05/09/2021, 18:34:51: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:34:51: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:34:51: 192.168.1.2 tente :
+05/09/2021, 18:34:51: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:34:51: 192.168.1.2 tente :
+05/09/2021, 18:34:51: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:35:01: 192.168.1.2 tente :
+05/09/2021, 18:35:01: 	DELETE - lignes/ (id_utilisateur: 1)		(supprimer une ligne)
+05/09/2021, 18:35:01: 	DELETE - lignes/ (id_utilisateur: 1)		(supprimer une ligne)
+05/09/2021, 18:35:01: 	DELETE - lignes/ (id_utilisateur: 1)		(supprimer une ligne)
+05/09/2021, 18:35:01: 192.168.1.2 tente :
+05/09/2021, 18:35:01: 	PUT - lignes/ (id_utilisateur: 1)		(maj. du nbKilometresCumules)
+05/09/2021, 18:35:01: 192.168.1.2 tente :
+05/09/2021, 18:35:01: 	PUT - utilisateurs/nbKilometresCumules (id_utilisateur: 1)		(recalculer le nombre de kilometres Cumules d'un utilisateur)
+05/09/2021, 18:35:01: 192.168.1.2 tente :
+05/09/2021, 18:35:01: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:35:01: 192.168.1.2 tente :
+05/09/2021, 18:35:01: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur - tri id)
+05/09/2021, 18:36:17: 192.168.1.2 tente :
+05/09/2021, 18:36:17: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:36:17: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:36:17: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:36:17: 192.168.1.2 tente :
+05/09/2021, 18:36:17: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 18:36:17: 192.168.1.2 tente :
+05/09/2021, 18:36:17: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:36:17: 192.168.1.2 tente :
+05/09/2021, 18:36:17: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:36:17: 192.168.1.2 tente :
+05/09/2021, 18:36:17: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:36:19: 192.168.1.2 tente :
+05/09/2021, 18:36:19: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:36:19: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:36:19: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:36:19: 192.168.1.2 tente :
+05/09/2021, 18:36:19: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:36:19: 192.168.1.2 tente :
+05/09/2021, 18:36:19: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:36:27: 192.168.1.2 tente :
+05/09/2021, 18:36:27: 	POST - lignes/ (id_utilisateur: 1)		(ajout d'une nouvelle ligne)
+05/09/2021, 18:36:27: 		id nouvelle ligne => 271
+05/09/2021, 18:36:27: 192.168.1.2 tente :
+05/09/2021, 18:36:27: 	PUT - lignes/ (id_utilisateur: 1)		(maj. du nbKilometresCumules)
+05/09/2021, 18:36:27: 192.168.1.2 tente :
+05/09/2021, 18:36:27: 	PUT - utilisateurs/nbKilometresCumules (id_utilisateur: 1)		(recalculer le nombre de kilometres Cumules d'un utilisateur)
+05/09/2021, 18:36:27: 192.168.1.2 tente :
+05/09/2021, 18:36:27: PUT - statistiques/ (id_utilisateur: 1)		(maj. de la stat. nbKilometresCumules) en fct de l'utilisateur
+05/09/2021, 18:36:27: 192.168.1.2 tente :
+05/09/2021, 18:36:27: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:36:27: 192.168.1.2 tente :
+05/09/2021, 18:36:27: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:36:27: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:36:27: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:36:27: 192.168.1.2 tente :
+05/09/2021, 18:36:27: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 18:36:27: 192.168.1.2 tente :
+05/09/2021, 18:36:27: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:36:27: 192.168.1.2 tente :
+05/09/2021, 18:36:27: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:36:27: 192.168.1.2 tente :
+05/09/2021, 18:36:27: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:36:27: 192.168.1.2 tente :
+05/09/2021, 18:36:27: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:36:28: 192.168.1.2 tente :
+05/09/2021, 18:36:28: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:36:28: 192.168.1.2 tente :
+05/09/2021, 18:36:28: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:36:29: 192.168.1.2 tente :
+05/09/2021, 18:36:29: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:36:29: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:36:29: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:36:29: 192.168.1.2 tente :
+05/09/2021, 18:36:29: 	GET - vehicules/nomUnique (id_utilisateur: 1)		(récupère vehicule via nom_unique)
+05/09/2021, 18:36:29: 192.168.1.2 tente :
+05/09/2021, 18:36:29: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:36:35: 192.168.1.2 tente :
+05/09/2021, 18:36:35: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:36:35: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:36:35: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:36:35: 192.168.1.2 tente :
+05/09/2021, 18:36:35: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 18:36:35: 192.168.1.2 tente :
+05/09/2021, 18:36:35: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:36:35: 192.168.1.2 tente :
+05/09/2021, 18:36:35: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:36:35: 192.168.1.2 tente :
+05/09/2021, 18:36:35: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:36:35: 192.168.1.2 tente :
+05/09/2021, 18:36:35: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:36:35: 192.168.1.2 tente :
+05/09/2021, 18:36:35: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:36:35: 192.168.1.2 tente :
+05/09/2021, 18:36:35: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:36:35: 192.168.1.2 tente :
+05/09/2021, 18:36:35: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:36:35: 192.168.1.2 tente :
+05/09/2021, 18:36:35: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:36:35: 192.168.1.2 tente :
+05/09/2021, 18:36:35: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:36:38: 192.168.1.2 tente :
+05/09/2021, 18:36:38: 	DELETE - lignes/ (id_utilisateur: 1)		(supprimer une ligne)
+05/09/2021, 18:36:38: 192.168.1.2 tente :
+05/09/2021, 18:36:38: 	PUT - lignes/ (id_utilisateur: 1)		(maj. du nbKilometresCumules)
+05/09/2021, 18:36:39: 192.168.1.2 tente :
+05/09/2021, 18:36:39: 	PUT - utilisateurs/nbKilometresCumules (id_utilisateur: 1)		(recalculer le nombre de kilometres Cumules d'un utilisateur)
+05/09/2021, 18:36:39: 192.168.1.2 tente :
+05/09/2021, 18:36:39: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:36:39: 192.168.1.2 tente :
+05/09/2021, 18:36:39: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur - tri id)
+05/09/2021, 18:36:49: 192.168.1.2 tente :
+05/09/2021, 18:36:49: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur - tri nbKilometresCumules)
+05/09/2021, 18:43:47: 192.168.1.2 tente :
+05/09/2021, 18:43:47: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:43:47: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:43:47: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:43:49: 192.168.1.2 tente :
+05/09/2021, 18:43:49: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:43:49: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:43:49: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:43:53: 192.168.1.2 tente :
+05/09/2021, 18:43:53: 192.168.1.2 tente :
+05/09/2021, 18:43:53: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:43:53: 	GET - utilisateurs/email:email
+05/09/2021, 18:43:53: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:43:53: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:43:53: 192.168.1.2 tente :
+05/09/2021, 18:43:53: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 18:43:54: 192.168.1.2 tente :
+05/09/2021, 18:43:54: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:43:54: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:43:54: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:43:55: 192.168.1.2 tente :
+05/09/2021, 18:43:55: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:43:55: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:43:55: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:43:55: 192.168.1.2 tente :
+05/09/2021, 18:43:55: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 18:43:55: 192.168.1.2 tente :
+05/09/2021, 18:43:55: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:43:55: 192.168.1.2 tente :
+05/09/2021, 18:43:55: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:43:55: 192.168.1.2 tente :
+05/09/2021, 18:43:55: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:43:57: 192.168.1.2 tente :
+05/09/2021, 18:43:57: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur - tri nbKilometresCumules)
+05/09/2021, 18:43:58: 192.168.1.2 tente :
+05/09/2021, 18:43:58: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:43:58: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:43:58: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:43:59: 192.168.1.2 tente :
+05/09/2021, 18:43:59: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:43:59: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:43:59: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:43:59: 192.168.1.2 tente :
+05/09/2021, 18:43:59: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:43:59: 192.168.1.2 tente :
+05/09/2021, 18:43:59: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 18:43:59: 192.168.1.2 tente :
+05/09/2021, 18:43:59: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:43:59: 192.168.1.2 tente :
+05/09/2021, 18:43:59: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:43:59: 192.168.1.2 tente :
+05/09/2021, 18:43:59: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:43:59: 192.168.1.2 tente :
+05/09/2021, 18:43:59: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:43:59: 192.168.1.2 tente :
+05/09/2021, 18:43:59: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:44:01: 192.168.1.2 tente :
+05/09/2021, 18:44:01: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques - tri id)
+05/09/2021, 18:44:02: 192.168.1.2 tente :
+05/09/2021, 18:44:02: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:44:02: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:44:02: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:44:03: 192.168.1.2 tente :
+05/09/2021, 18:44:03: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:44:03: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:44:03: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:44:03: 192.168.1.2 tente :
+05/09/2021, 18:44:03: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 18:44:03: 192.168.1.2 tente :
+05/09/2021, 18:44:03: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:44:03: 192.168.1.2 tente :
+05/09/2021, 18:44:03: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:44:03: 192.168.1.2 tente :
+05/09/2021, 18:44:03: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:44:03: 192.168.1.2 tente :
+05/09/2021, 18:44:03: 192.168.1.2 tente :
+05/09/2021, 18:44:03: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:44:03: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:44:03: 192.168.1.2 tente :
+05/09/2021, 18:44:03: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:44:03: 192.168.1.2 tente :
+05/09/2021, 18:44:03: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:44:03: 192.168.1.2 tente :
+05/09/2021, 18:44:03: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:44:05: 192.168.1.2 tente :
+05/09/2021, 18:44:05: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur - tri nbKilometresCumules)
+05/09/2021, 18:44:06: 192.168.1.2 tente :
+05/09/2021, 18:44:06: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:44:06: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:44:06: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:44:08: 192.168.1.2 tente :
+05/09/2021, 18:44:08: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:44:08: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:44:08: 	GET - utilisateurs/ (id_utilisateur: 1)
+05/09/2021, 18:44:08: 192.168.1.2 tente :
+05/09/2021, 18:44:08: 	GET - utilisateurs (id_utilisateur: 1)
+05/09/2021, 18:44:08: 192.168.1.2 tente :
+05/09/2021, 18:44:08: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:44:08: 192.168.1.2 tente :
+05/09/2021, 18:44:08: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:44:08: 192.168.1.2 tente :
+05/09/2021, 18:44:08: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:44:08: 192.168.1.2 tente :
+05/09/2021, 18:44:08: 192.168.1.2 tente :
+05/09/2021, 18:44:08: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:44:08: 	GET - utilisateurs/id/ (id_utilisateur: 1)
+05/09/2021, 18:44:08: 192.168.1.2 tente :
+05/09/2021, 18:44:08: 	GET - lignes/utilisateur/nbLignes (id_utilisateur: 1)		(nombre de lignes en fct de l'utilisateur)
+05/09/2021, 18:44:08: 192.168.1.2 tente :
+05/09/2021, 18:44:08: 	GET - vehicules/utilisateur (id_utilisateur: 1)		(liste des vehicules avec nom des marques en fct de l'utilisateur)
+05/09/2021, 18:44:08: 192.168.1.2 tente :
+05/09/2021, 18:44:08: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:44:08: 192.168.1.2 tente :
+05/09/2021, 18:44:08: 	GET - lignes/utilisateur (id_utilisateur: 1)		(liste des lignes avec nom des véhicules en fct de l'utilisateur)
+05/09/2021, 18:44:10: 192.168.1.2 tente :
+05/09/2021, 18:44:10: 	jwt - POST - utilisateurs/connexion/token 
+05/09/2021, 18:44:10: 	GET - utilisateurs/ (id_utilisateur: 1)(estConnecte status)
+05/09/2021, 18:44:10: 	GET - utilisateurs/ (id_utilisateur: 1)
