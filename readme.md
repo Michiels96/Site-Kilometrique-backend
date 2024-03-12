@@ -9,9 +9,9 @@
 
 ## Setup
 
-Install dependencies :
+Install node dependencies :
 
-*\# npm i*
+*\# npm install*
 
 Create needed repositories:
 
