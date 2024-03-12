@@ -1,53 +1,59 @@
-NPM :
+# âš¡ï¸ SiteKilometrique - backend âš¡ï¸
 
-#npm init
-#npm i
+- [âš¡ï¸ SiteKilometrique - backend âš¡ï¸](#ï¸-sitekilometrique---backend-ï¸)
+  - [Setup](#setup)
+  - [Development mode](#development-mode)
+  - [Production mode](#production-mode)
+    - [Production mode as system daemon](#production-mode-as-system-daemon)
+  - [Further info](#further-info)
 
-#node main.js 
+## Setup
 
+Install dependencies :
 
-Ajouter l'adresse IP du PC distant pour autoriser sa connection avec la DB :
+*\# npm i*
 
-1.
-Mettre en commentaire la ligne 'bind-address = 127.0.0.1'
-du fichier /etc/mysql/mariadb.conf.d/50-server.cnf
-ainsi que décommenter le 'Port'
+Create needed repositories:
 
-2.
-Se connecter sur le PC qui hote le serveur mariaDB :
-#mysql -u root
+*\# mkdir {fichiers, logs}*
 
-puis exécuter cette query :
-GRANT ALL PRIVILEGES ON *.* TO root@my_ip IDENTIFIED BY ‘root_password‘ WITH GRANT OPTION;
-my_ip à remplacer par l'ip du PC distant à connecter.
+Untar protected *launch_scripts.tar* file with a *know password* :
 
-Pour voir les utilisateurs ainsi que leurs adresses IP autorisées à se connecter
-USE mysql;
-SELECT user,host FROM user;
+*\# openssl enc -d -aes-256-cbc -in launch_scripts.tar | tar xvf -*
 
-commande à exécuter sur le pc distant :
-#mysql -u root -p'motDePasse' -h addrIPDuServeurMySQL -P 3306
+Tar it back :
 
+*\# tar cvf - launch_scripts/ | openssl enc -aes-256-cbc -e -salt -out launch_scripts.tar*
 
+## Development mode
 
+Copy .env & launch_script_development.sh files from the tar file to the root folder of this project and :
 
-Changer de mot de passe d'un utilisateur voulant se connecter à la db mysql:
-#mysql -u root -p
+*\# bash launch_script_development.sh*
 
--> ALTER USER 'user-name'@'localhost' IDENTIFIED BY 'NEW_USER_PASSWORD';
--> FLUSH PRIVILEGES;
+> verify if variables from .env are correct.
 
+## Production mode
 
-Lancer sur la raspbian le backend en mode 'production':
-#./launch_script_production.sh &
-(bien vérifier que le fichier est exécutable)
+Copy launch_script_production.sh files from the tar file to the root folder of this project and :
 
-Sur la raspbian, voir les process en cours:
-#ps au 
-(voir le process id qui a comme 'COMMAND' 'node main.js')
-#kill -9 <PID> 
-(où PID vaut le pid du process node 'main.js')
+*\# bash launch_script_production.sh*
 
-Pour terminer un process qui utilise un certain port:
-#fuser <port>/tcp
-Puis, il donne le PID du process
+> verify if variables from launch_script_production.sh are correct.
+
+### Production mode as system daemon
+
+Copy site_kilometrique_backend.service file to */usr/lib/systemd/user/.* and create a symbolic link to */etc/systemd/system/.* :
+
+*\# ln -s /usr/lib/systemd/user/site_kilometrique_backend.service /etc/systemd/system/site_kilometrique_backend.service*
+
+> verify if variables from site_kilometrique_backend.service are correct.
+
+Enable the service for future reboots :
+
+*\# systemctl enable site_kilometrique_backend.service*
+
+## Further info
+
+website : https://michiels.zapto.org
+
