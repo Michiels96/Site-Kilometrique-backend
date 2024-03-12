@@ -28,8 +28,6 @@ var signOptions = {
     issuer:  i,
     subject:  s,
     audience:  a,
-    //expiresIn:  "12h",
-    //expiresIn: 30,
     expiresIn: totalTokenTime,
     algorithm:  "RS256"
 };
@@ -38,7 +36,6 @@ var verifyOptions = {
     issuer:  i,
     subject:  s,
     audience:  a,
-    //expiresIn:  "12h",
     expiresIn: totalTokenTime,
     algorithm:  ["RS256"]
 };
@@ -68,7 +65,6 @@ function ensureToken(req, res, next){
             res.sendStatus(403);
         }
         else{
-            //jwt.verify(req.token, secret, function(err, data){
             jwt.verify(req.token, publicKEY, verifyOptions, function(err, data){
                 if(err){
                     db.pool.getConnection((err, connection) => {
